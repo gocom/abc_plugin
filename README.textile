@@ -1,0 +1,5 @@
+h1. abc_plugin
+
+p. This is a plugin template for "MassPlugCompiler":https://github.com/gocom/MassPlugCompiler.
+
+p. This would be your plugin's help file.
