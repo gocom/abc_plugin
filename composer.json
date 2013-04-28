@@ -4,6 +4,7 @@
 	"keywords": ["textpattern"],
 	"homepage": "https://github.com/gocom/abc_plugin",
 	"license": "GPL-2.0",
+	"type": "textpattern-plugin",
 	"authors": [
 		{
 			"name": "Jukka Svahn",
