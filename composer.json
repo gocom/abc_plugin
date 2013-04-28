@@ -1,0 +1,24 @@
+{
+	"name": "rah/abc_plugin",
+	"description": "A plugin template",
+	"keywords": ["textpattern"],
+	"homepage": "https://github.com/gocom/abc_plugin",
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Jukka Svahn",
+			"homepage": "http://rahforum.biz",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/gocom/abc_plugin/issues",
+		"source": "https://github.com/gocom/abc_plugin"
+	},
+	"autoload": {
+		"files": []
+	},
+	"require": {
+		"php": ">=5.2.0"
+	}
+}
