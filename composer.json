@@ -20,7 +20,6 @@
 		"files": []
 	},
 	"require": {
-		"php": ">=5.2.0",
 		"rah/textpattern-plugin-installer": "*@dev"
 	}
 }
