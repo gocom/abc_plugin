@@ -1,7 +1,7 @@
 {
 	"name": "rah/abc_plugin",
 	"description": "A plugin template",
-	"keywords": ["textpattern"],
+	"keywords": ["textpattern", "plugin"],
 	"homepage": "https://github.com/gocom/abc_plugin",
 	"license": "GPL-2.0",
 	"type": "textpattern-plugin",
@@ -20,7 +20,7 @@
 		"files": []
 	},
 	"require": {
-		"textpattern/lock": ">=4.5.0",
-		"textpattern/installer": "*@dev"
+		"textpattern/lock": ">=4.3.0",
+		"textpattern/installer": "*"
 	}
 }
