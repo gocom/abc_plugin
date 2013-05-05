@@ -2,7 +2,7 @@ h1. abc_plugin
 
 p. "Download":https://github.com/gocom/abc_plugin/archive/master.zip | "Packagist":https://packagist.org/packages/rah/abc_plugin
 
-p. This is a plugin template for "MassPlugCompiler":https://github.com/gocom/MassPlugCompiler.
+p. This is a plugin template for "Textpattern CMS":http://textpattern.com.
 
 p. This would be your plugin's help file.
 
@@ -20,7 +20,7 @@ bc. $ git clone https://github.com/gocom/abc_plugin.git
 
 h2. Compiling the plugin template
 
-p. The template can be compiled to a plugin installer using "MassPlugCompiler":https://github.com/gocom/MassPlugCompiler:
+p. The template can be compiled to a plugin installer package using "MassPlugCompiler":https://github.com/gocom/MassPlugCompiler:
 
 bc. $ git clone https://github.com/gocom/MassPlugCompiler.git
 $ compile /absolute/path/to/abc_plugin
