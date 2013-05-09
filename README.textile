@@ -23,6 +23,7 @@ h2. Compiling the plugin template
 p. The template can be compiled to a plugin installer package using "MassPlugCompiler":https://github.com/gocom/MassPlugCompiler:
 
 bc. $ git clone https://github.com/gocom/MassPlugCompiler.git
+$ cd MassPlugCompiler
 $ compile /absolute/path/to/abc_plugin
 
 h2. Changelog
