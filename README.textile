@@ -10,7 +10,7 @@ h2. Installing
 
 This plugin template can be installed using "Composer":http://getcomposer.org:
 
-bc. $ composer.phar require rah/abc_plugin
+bc. $ composer require rah/abc_plugin
 
 h2. Cloning
 
