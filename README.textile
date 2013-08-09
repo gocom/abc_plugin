@@ -18,6 +18,8 @@ This plugin template can be cloned, and forked, using "git":http://git-scm.com/:
 
 bc. $ git clone https://github.com/gocom/abc_plugin.git
 
+See GitHub's excellent "Fork a repo":https://help.github.com/articles/fork-a-repo article for more detailed, instructions, tips and tricks.
+
 h2. Compiling the plugin template
 
 The template can be compiled to a plugin installer package using "MassPlugCompiler":https://github.com/gocom/MassPlugCompiler:
