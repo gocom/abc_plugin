@@ -1,26 +1,26 @@
 h1. abc_plugin
 
-p. "Download":https://github.com/gocom/abc_plugin/archive/master.zip | "Packagist":https://packagist.org/packages/rah/abc_plugin
+"Download":https://github.com/gocom/abc_plugin/archive/master.zip | "Packagist":https://packagist.org/packages/rah/abc_plugin
 
-p. This is a plugin template for "Textpattern CMS":http://textpattern.com.
+This is a plugin template for "Textpattern CMS":http://textpattern.com.
 
-p. This would be your plugin's help file.
+This would be your plugin's help file.
 
 h2. Installing
 
-p. This plugin template can be installed using "Composer":http://getcomposer.org:
+This plugin template can be installed using "Composer":http://getcomposer.org:
 
 bc. $ composer.phar require rah/abc_plugin
 
 h2. Cloning
 
-p. This plugin template can be cloned, and forked, using "git":http://git-scm.com/:
+This plugin template can be cloned, and forked, using "git":http://git-scm.com/:
 
 bc. $ git clone https://github.com/gocom/abc_plugin.git
 
 h2. Compiling the plugin template
 
-p. The template can be compiled to a plugin installer package using "MassPlugCompiler":https://github.com/gocom/MassPlugCompiler:
+The template can be compiled to a plugin installer package using "MassPlugCompiler":https://github.com/gocom/MassPlugCompiler:
 
 bc. $ git clone https://github.com/gocom/MassPlugCompiler.git
 $ cd MassPlugCompiler
