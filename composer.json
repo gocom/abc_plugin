@@ -1,26 +1,26 @@
 {
-	"name": "rah/abc_plugin",
-	"description": "A plugin template",
-	"keywords": ["textpattern", "plugin"],
-	"homepage": "https://github.com/gocom/abc_plugin",
-	"license": "GPL-2.0",
-	"type": "textpattern-plugin",
-	"authors": [
-		{
-			"name": "Jukka Svahn",
-			"homepage": "http://rahforum.biz",
-			"role": "Developer"
-		}
-	],
-	"support": {
-		"issues": "https://github.com/gocom/abc_plugin/issues",
-		"source": "https://github.com/gocom/abc_plugin"
-	},
-	"autoload": {
-		"files": []
-	},
-	"require": {
-		"textpattern/lock": "4.3.*,4.4.*,4.5.*",
-		"textpattern/installer": "*"
-	}
+    "name": "rah/abc_plugin",
+    "description": "A plugin template",
+    "keywords": ["textpattern", "plugin"],
+    "homepage": "https://github.com/gocom/abc_plugin",
+    "license": "GPL-2.0",
+    "type": "textpattern-plugin",
+    "authors": [
+        {
+            "name": "Jukka Svahn",
+            "homepage": "http://rahforum.biz",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/gocom/abc_plugin/issues",
+        "source": "https://github.com/gocom/abc_plugin"
+    },
+    "autoload": {
+        "files": []
+    },
+    "require": {
+        "textpattern/lock": "4.3.*,4.4.*,4.5.*",
+        "textpattern/installer": "*"
+    }
 }
