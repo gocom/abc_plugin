@@ -1,11 +1,11 @@
 {
-    "name"        : "abc_plugin",
-    "description" : "This is an example plugin",
-    "version"     : "0.1.0",
-    "type"        : 3,
-    "author"      : "John Doe",
-    "author_uri"  : "http://example.com",
-    "order"       : 5,
-    "flags"       : 0,
-    "help"        : {"file" : ["./README.textile"]}
+    "name": "abc_plugin",
+    "description": "This is an example plugin",
+    "version": "0.1.0",
+    "type": 3,
+    "author": "John Doe",
+    "author_uri": "http://example.com",
+    "order": 5,
+    "flags": 0,
+    "help": {"file" : ["./README.textile"]}
 }
