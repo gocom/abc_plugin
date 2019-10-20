@@ -28,7 +28,7 @@ $ composer compile
 
 h2. Changelog
 
-h3. Version 0.2.0 - upcoming
+h3. Version 0.2.0 - 2019/10/20
 
 * Update template.
 
