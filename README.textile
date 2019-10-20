@@ -28,6 +28,11 @@ $ composer compile
 
 h2. Changelog
 
+h3. Version 0.3.0 - 2019/10/20
+
+* Fix textpack compilation.
+* Update to mtxpc 0.7.0.
+
 h3. Version 0.2.0 - 2019/10/20
 
 * Update template.
