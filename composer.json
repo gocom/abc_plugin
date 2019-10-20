@@ -8,7 +8,7 @@
     "authors": [
         {
             "name": "Jukka Svahn",
-            "homepage": "http://rahforum.biz",
+            "homepage": "https://rahforum.biz",
             "role": "Developer"
         }
     ],
@@ -16,11 +16,14 @@
         "issues": "https://github.com/gocom/abc_plugin/issues",
         "source": "https://github.com/gocom/abc_plugin"
     },
-    "autoload": {
-        "files": []
-    },
     "require": {
-        "textpattern/lock": "4.3.*,4.4.*,4.5.*",
+        "textpattern/lock": ">=4.4.1",
         "textpattern/installer": "*"
+    },
+    "require-dev": {
+        "rah/mtxpc": "^0.5.0"
+    },
+    "scripts": {
+        "compile": "mtxpc --outdir=dist/ -c . && mtxpc --outdir=dist/ ."
     }
 }

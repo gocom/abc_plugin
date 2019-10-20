@@ -3,21 +3,19 @@
 /**
  * This is an example plugin for Textpattern CMS.
  *
- * @link http://textpattern.com/
+ * @link https://textpattern.com/
  */
 
 /**
  * The plugin class.
  */
-
-class abc_example
+class Abc_Example
 {
     /**
      * Constructor.
      *
      * Registers plugin-lifecycle handlers.
      */
-
     public function __construct()
     {
         register_callback(array($this, 'install'), 'plugin_lifecycle.abc_example', 'installed');
@@ -30,7 +28,6 @@ class abc_example
      *
      * Run when the plugin is installed or updated.
      */
-
     public function install()
     {
     }
@@ -40,7 +37,6 @@ class abc_example
      *
      * Run when the plugin is deleted.
      */
-
     public function uninstall()
     {
     }
@@ -48,10 +44,9 @@ class abc_example
     /**
      * Adds the translation string to admin-side Articles panel.
      *
-     * @see gTxt()
-     * @see graf()
+     * @see \gTxt()
+     * @see \graf()
      */
-
     public function greeting()
     {
         echo graf(gTxt('abc_plugin_greeting'), ' class="alert-block information"');
@@ -61,5 +56,4 @@ class abc_example
 /**
  * Initializes the plugin.
  */
-
-new abc_example();
+new Abc_Example();

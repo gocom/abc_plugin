@@ -2,33 +2,35 @@ h1. abc_plugin
 
 "Download":https://github.com/gocom/abc_plugin/archive/master.zip | "Packagist":https://packagist.org/packages/rah/abc_plugin
 
-This is a plugin template for "Textpattern CMS":http://textpattern.com.
+This is a plugin template for "Textpattern CMS":https://textpattern.com.
 
 This would be your plugin's help file.
 
-h2. Installing
+h2. Install
 
-This plugin template can be installed using "Composer":http://getcomposer.org:
+This plugin template can be installed using "Composer":https://getcomposer.org:
 
 bc. $ composer require rah/abc_plugin
 
 h2. Cloning
 
-This plugin template can be cloned, and forked, using "git":http://git-scm.com/:
+This plugin template can be cloned, and forked, using "git":https://git-scm.com/:
 
 bc. $ git clone https://github.com/gocom/abc_plugin.git
 
-See GitHub's excellent "Fork a repo":https://help.github.com/articles/fork-a-repo article for more detailed, instructions, tips and tricks.
-
 h2. Compiling the plugin template
 
-The template can be compiled to a plugin installer package using "MassPlugCompiler":https://github.com/gocom/MassPlugCompiler:
+The template can be compiled to a plugin installer package using "mtxpc":https://github.com/gocom/MassPlugCompiler, which is included as a development dependency:
 
-bc. $ git clone https://github.com/gocom/MassPlugCompiler.git
-$ cd MassPlugCompiler
-$ compile /absolute/path/to/abc_plugin
+bc. $ git clone https://github.com/gocom/abc_plugin.git && cd abc_plugin
+$ composer install
+$ composer compile
 
 h2. Changelog
+
+h3. Version 0.2.0 - upcoming
+
+* Update template.
 
 h3. Version 0.1.0 - 2013/05/05
 
