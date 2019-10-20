@@ -21,7 +21,7 @@
         "textpattern/installer": "*"
     },
     "require-dev": {
-        "rah/mtxpc": "^0.5.0"
+        "rah/mtxpc": "^0.7.0"
     },
     "scripts": {
         "compile": "mtxpc --outdir=dist/ -c . && mtxpc --outdir=dist/ ."
