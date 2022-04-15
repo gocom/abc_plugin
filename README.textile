@@ -16,9 +16,7 @@ h2. Development
 
 For available commands, see:
 
-```
-$ make help
-```
+bc. $ make help
 
 h3. Composer support
 
