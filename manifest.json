@@ -1,12 +1,15 @@
 {
     "name": "abc_plugin",
     "description": "This is an example plugin",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "type": 3,
     "author": "John Doe",
     "author_uri": "https://example.com",
     "order": 5,
     "flags": 0,
     "help": {"file": ["./README.textile"]},
-    "code": {"file": ["./src/Index.php"]}
+    "code": {"file": [
+        "./src/Abc/Example.php",
+        "./src/Index.php"
+    ]}
 }

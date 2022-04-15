@@ -1,16 +1,10 @@
 h1. abc_plugin
 
-"Download":https://github.com/gocom/abc_plugin/archive/master.zip | "Packagist":https://packagist.org/packages/rah/abc_plugin
+"Download":https://github.com/gocom/abc_plugin/releases | "Packagist":https://packagist.org/packages/rah/abc_plugin
 
-This is a plugin template for "Textpattern CMS":https://textpattern.com.
+This is a plugin template for "Textpattern CMS":https://textpattern.com. This could be used as a template for other plugins. It includes Docker container runtime for PHP and Composer, plugin compiler and GitHub Actions integration which can automatically create compiled plugin releases, and run linter on commit.
 
-This would be your plugin's help file.
-
-h2. Install
-
-This plugin template can be installed using "Composer":https://getcomposer.org:
-
-bc. $ composer require rah/abc_plugin
+This file would be your plugin's help file.
 
 h2. Cloning
 
@@ -18,15 +12,31 @@ This plugin template can be cloned, and forked, using "git":https://git-scm.com/
 
 bc. $ git clone https://github.com/gocom/abc_plugin.git
 
-h2. Compiling the plugin template
+h2. Development
 
-The template can be compiled to a plugin installer package using "mtxpc":https://github.com/gocom/MassPlugCompiler, which is included as a development dependency:
+For available commands, see:
 
-bc. $ git clone https://github.com/gocom/abc_plugin.git && cd abc_plugin
-$ composer install
-$ composer compile
+```
+$ make help
+```
+
+h3. Composer support
+
+Once a plugin created with this template is submitted to "Packagist":https://packagist.org repository, they can be installed through "Composer":https://getcomposer.org dependency manager from command-line:
+
+bc. $ composer require rah/abc_plugin
+
+h3. Compiling the plugin template
+
+After cloning, the template can be compiled to a plugin installer package using "mtxpc":https://github.com/gocom/MassPlugCompiler, which is included as a development dependency and ran inside a Docker container:
+
+bc. $ make compile
 
 h2. Changelog
+
+h3. Version 0.4.0 - upcoming
+
+* Use Docker containers for development environment.
 
 h3. Version 0.3.0 - 2019/10/20
 
