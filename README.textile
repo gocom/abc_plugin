@@ -32,6 +32,10 @@ bc. $ make compile
 
 h2. Changelog
 
+h3. Version 0.5.0 - 2022/11/19
+
+* Drop use of deprecated set-output command in command in GitHub Actions' workflow file.
+
 h3. Version 0.4.0 - 2022/04/15
 
 * Use Docker containers for development environment.
