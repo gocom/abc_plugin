@@ -32,6 +32,10 @@ bc. $ make compile
 
 h2. Changelog
 
+h3. Version 0.5.3 - 2022/11/19
+
+* Adjust GitHub release name.
+
 h3. Version 0.5.2 - 2022/11/19
 
 * Migrate to shogo82148/actions-create-release and shogo82148/actions-upload-release-asset actions.
