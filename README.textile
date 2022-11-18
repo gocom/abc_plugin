@@ -32,6 +32,10 @@ bc. $ make compile
 
 h2. Changelog
 
+h3. Version 0.5.4 - 2022/11/19
+
+* Update actions/upload-artifact.
+
 h3. Version 0.5.3 - 2022/11/19
 
 * Adjust GitHub release name.
