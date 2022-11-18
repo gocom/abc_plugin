@@ -35,6 +35,7 @@ h2. Changelog
 h3. Version 0.5.0 - 2022/11/19
 
 * Drop use of deprecated set-output command in command in GitHub Actions' workflow file.
+* Update actions/checkout to version 3.
 
 h3. Version 0.4.0 - 2022/04/15
 
