@@ -32,6 +32,10 @@ bc. $ make compile
 
 h2. Changelog
 
+h3. Version 0.5.2 - 2022/11/19
+
+* Migrate to shogo82148/actions-create-release and shogo82148/actions-upload-release-asset actions.
+
 h3. Version 0.5.1 - 2022/11/19
 
 * Fix changelog quoting in GitHub Actions' workflow.
