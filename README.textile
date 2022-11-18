@@ -32,6 +32,10 @@ bc. $ make compile
 
 h2. Changelog
 
+h3. Version 0.5.1 - 2022/11/19
+
+* Fix changelog quoting in GitHub Actions' workflow.
+
 h3. Version 0.5.0 - 2022/11/19
 
 * Drop use of deprecated set-output command in command in GitHub Actions' workflow file.

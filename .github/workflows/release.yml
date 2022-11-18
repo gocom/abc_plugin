@@ -21,11 +21,9 @@ jobs:
             -   name: Changelog
                 id: changelog
                 run: |
-                    contents="$(sed -e '1,/h2. Changelog/d' README.textile | sed -e '1,/h3./d' -e '/h3./,$d')"
-                    contents="${contents//'%'/'%25'}"
-                    contents="${contents//$'\n'/'%0A'}"
-                    contents="${contents//$'\r'/'%0D'}"
-                    echo "contents=$contents" >> $GITHUB_OUTPUT
+                    echo "contents<<CHANGELOGEOF" >> $GITHUB_OUTPUT
+                    sed -e '1,/h2. Changelog/d' README.textile | sed -e '1,/h3./d' -e '/h3./,$d' >> $GITHUB_OUTPUT
+                    echo "CHANGELOGEOF" >> $GITHUB_OUTPUT
 
             -   name: Create Release
                 id: create_release
