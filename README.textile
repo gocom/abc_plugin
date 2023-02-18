@@ -32,6 +32,10 @@ bc. $ make compile
 
 h2. Changelog
 
+h3. Version 0.5.5 - 2023/02/18
+
+* Update release changelog extraction to convert Textile's @code@ formatting to Markdown syntax to avoid including false mentions in the release message.
+
 h3. Version 0.5.4 - 2022/11/19
 
 * Update actions/upload-artifact.
