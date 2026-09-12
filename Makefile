@@ -24,7 +24,11 @@ compile: vendor
 shell: vendor
 	$(PHP) bash
 
-test: lint
+test: vendor
+	$(PHP) composer test
+
+test-unit: vendor
+	$(PHP) composer test:unit
 
 help:
 	@echo "Manage project"
