@@ -4,7 +4,6 @@
     xsi:noNamespaceSchemaLocation="vendor/phpunit/phpunit/phpunit.xsd"
     bootstrap="test/bootstrap.php"
     cacheDirectory=".phpunit-cache"
-    processIsolation="true"
 >
     <testsuites>
         <testsuite name="Textpattern Plugin Test Suite">
@@ -16,6 +15,9 @@
         <include>
             <directory>./src/</directory>
         </include>
+        <exclude>
+            <file>./src/Index.php</file>
+        </exclude>
     </source>
 
     <coverage>
