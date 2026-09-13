@@ -32,7 +32,7 @@ bc. $ make compile
 
 h2. Changelog
 
-h3. Version 0.6.0 - upcoming
+h3. Version 0.6.0 - 2026/09/13
 
 * Add basic unit testing support. Uses monkey patching to provide doubles of Textpattern's functional API for the tests.
 * New PHP 8.5 based container for running test suite.
