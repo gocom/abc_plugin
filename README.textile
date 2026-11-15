@@ -35,6 +35,7 @@ h2. Changelog
 h3. Version 0.7.0 - upcoming
 
 * Migrate to pie from PECL for installing PHP extensions.
+* Add permission declaration to the Create Release CI action to allow read-only default CI token configuration.
 
 h3. Version 0.6.0 - 2026/09/13
 
