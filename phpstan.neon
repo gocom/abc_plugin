@@ -6,3 +6,6 @@ parameters:
         - '#Function [a-zA-Z0-9\\_]+ not found#'
         - '#Method [a-zA-Z0-9\\_\(\):]+ has no return type specified#'
         - '#Method [a-zA-Z0-9\\_\(\):]+ has parameter [a-zA-Z0-9\\_$]+ with no value type specified in iterable type array.#'
+        - '#Function [a-zA-Z0-9\\_\(\):]+ has parameter [a-zA-Z0-9\\_$]+ with no value type specified in iterable type array.#'
+        - '#Call to static method [a-zA-Z0-9\\_\(\):]+ on an unknown class [a-zA-Z0-9\\_\(\):]+.#'
+        - '#Variable [a-zA-Z0-9\\_$]+ might not be defined.#'
